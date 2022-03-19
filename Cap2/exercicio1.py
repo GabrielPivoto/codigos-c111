@@ -1,0 +1,5 @@
+nome = input("Digite seu nome: ")
+print("Nome com todas as letras maiúsculas: {}".format(nome.upper()))
+print("Nome com todas as letras minúsculas: {}".format(nome.lower()))
+print("Quantidade de letras: {}".format(len(nome)))
+print("Trocando o último nome: {}".format(nome.replace("Ambrosio","do Inatel")))
